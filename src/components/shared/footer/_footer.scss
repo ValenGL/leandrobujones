@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  margin-top: auto;
+
+  & .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & .footer-logo {
+    opacity: 0.5;
+    width: 30px;
+    padding: 0.5rem;
+  }
+
+  @media (max-width: 640px) {
+    & .footer-logo {
+      width: 22px;
+    }
+  }
+}
