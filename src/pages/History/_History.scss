@@ -1,3 +1,12 @@
+#HistoryPage {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    padding: 1rem 2rem;
+    margin: 0;
+  }
+}
+
 .history--container {
   display: flex;
   flex-direction: column;
@@ -9,7 +18,8 @@
 .history-text {
   max-width: 720px;
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
   color: white;
   font-size: 20px;
 }
